@@ -5,44 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About Me</title>
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style.css">
     
     <style type="text/css">
-        body{margin:40px
-        auto;max-width:650px;line-height:1.6;font-size:18px;color:#444;padding:0
-        10px}h1,h2,h3{line-height:1.2}{background-color:powderblue}
-        nav {
-            float: right;
-            width: 100%;
-            height: 0%
-            padding: 20px;
-            
-            z-index: 1;
-            top: 0;
-            left: 0;
-        }
+        
 
-        p {
-  border-top-style: dotted;
-  border-right-style: solid;
-  border-bottom-style: dotted;
-  border-left-style: solid;
-}
-    </style>
 
+
+</style>
 </head>
+
+
 <body>
+        
     <header></header>
+    <div class="fullscreen-bg">
+            <video loop muted autoplay poster="img/floorplan.mp4.mp4" class="fullscreen-bg__video">
+                <source src="img/floorplan.webm" type="video/webm">
+                <source src="img/floorplan.mp4" type="video/mp4">
+                <source src="img/floorplan.ogv" type="video/ogg">
+            </video>
+        </div>
+
+  
+        <div class="centeredscreen">
+    <div class="sidebar">
+         <a class="active" href="#home">Home</a>
+            <form action="hobbies.html">
+                <a href="hobbies.html">Hobbies</a>
+            </form>
+          </div>
    
         <h1>Thinking of this as a story</h1>
-        <P>You can think of me as a interesting figure when it comes to my life.</P> 
-        <p>When it comes to my interests, I am interested in almost anything you can think of, if you are interested in it, good chance I am too</p>
-        <p>Career goals has been all over the place, but to sum it up. I just want to be successfull and make my family proud. <br>Of course money helps, but I just want to know when I wake up, im doing something at a very high level</p>
+
+        <div class="goals">
+        <P id="goals">You can think of me as a interesting figure when it comes to my life.</P> 
+        <p id="goals">When it comes to my interests, I am interested in almost anything you can think of, if you are interested in it, good chance I am too.</p>
+        <p id="goals">Career goals has been all over the place, but to sum it up. I just want to be successfull and make my family proud. <br>Of course money helps, but I just want to know when I wake up, im doing something at a very high level.</p>
+        </div>
+        
         <nav>
                 <form action="index2.html">
                     <input type="submit" value="This link does not do anything" />
                 </form>
             </nav>
-    
+        </div>
+
+     
 </body>
+
 </html>

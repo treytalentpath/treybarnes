@@ -1,0 +1,1 @@
+{"preview":{"messages":["An error occurred while loading the image"],"keys":["preview.imageLoadError"]},"sizeStatusBarEntry":{"messages":["Image Size"],"keys":["sizeStatusBar.name"]},"zoomStatusBarEntry":{"messages":["Image Zoom","Select zoom level","Whole Image"],"keys":["zoomStatusBar.name","zoomStatusBar.placeholder","zoomStatusBar.wholeImageLabel"]}}

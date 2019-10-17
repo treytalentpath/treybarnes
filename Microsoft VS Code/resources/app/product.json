@@ -23,7 +23,6 @@
 	"dataFolderName": ".vscode",
 	"serverDataFolderName": ".vscode-server",
 	"downloadUrl": "https://code.visualstudio.com",
-	"welcomePage": "https://go.microsoft.com/fwlink/?LinkId=723048",
 	"updateUrl": "https://update.code.visualstudio.com",
 	"quality": "stable",
 	"extensionsGallery": {
@@ -42,7 +41,7 @@
 		"Ionide.Ionide-fsharp": "{**/*.fsx,**/*.fsi,**/*.fs,**/*.ml,**/*.mli}",
 		"dbaeumer.vscode-eslint": "{**/*.js,**/*.jsx,**/*.es6,**/.eslintrc.*,**/.eslintrc,**/.babelrc,**/jsconfig.json}",
 		"dbaeumer.jshint": "{**/*.js,**/*.jsx,**/*.es6,**/.babelrc,**/jsconfig.json,**/.jshintrc,**/.jshintignore}",
-		"ms-vscode.vscode-typescript-tslint-plugin": "{**/*.ts,**/*.tsx,**/tslint.json,**/tsconfig.json}",
+		"ms-vscode.vscode-typescript-tslint-plugin": "{**/tslint.json}",
 		"bmewburn.vscode-intelephense-client": "{**/*.php,**/php.ini}",
 		"felixfbecker.php-intellisense": "{**/*.php,**/php.ini}",
 		"felixfbecker.php-debug": "{**/*.php,**/php.ini}",
@@ -115,10 +114,6 @@
 		"octref.vetur": {
 			"name": "Vetur",
 			"pattern": "{**/*.vue}"
-		},
-		"vsciot-vscode.vscode-arduino": {
-			"name": "Arduino",
-			"pattern": "{**/*.ino}"
 		}
 	},
 	"keymapExtensionTips": [
@@ -762,6 +757,7 @@
 		"ms-vsliveshare.vsliveshare",
 		"ms-vsliveshare.cloudenv",
 		"ms-vsliveshare.cloudenv-explorer",
+		"ms-vsonline.vsonline",
 		"GitHub.vscode-pull-request-github",
 		"Microsoft.vscode-nmake-tools",
 		"atlassian.atlascode",
@@ -776,7 +772,8 @@
 		"ms-vscode-remote.remote-wsl",
 		"ms-vscode-remote.remote-wsl-nightly",
 		"ms-vscode-remote.vscode-remote-extensionpack",
-		"ms-vscode-remote.vscode-remote-extensionpack-nightly"
+		"ms-vscode-remote.vscode-remote-extensionpack-nightly",
+		"ms-vscode.azure-account"
 	],
 	"experimentsUrl": "https://az764295.vo.msecnd.net/experiments/vscode-experiments.json",
 	"uiExtensions": [
@@ -799,14 +796,14 @@
 		"https://vscode-auth.github.com",
 		"https://*.gallerycdn.vsassets.io"
 	],
-	"commit": "b37e54c98e1a74ba89e03073e5a3761284e3ffb0",
-	"date": "2019-09-11T13:35:15.005Z",
+	"commit": "9df03c6d6ce97c6645c5846f6dfa2a6a7d276515",
+	"date": "2019-10-09T06:58:04.439Z",
 	"checksums": {
-		"vs/workbench/workbench.desktop.main.js": "vP618oU6ssfAjeSV8qSP5Q",
-		"vs/workbench/workbench.desktop.main.css": "YN3KWx/DetHhoHfdb3UBTA",
+		"vs/workbench/workbench.desktop.main.js": "ejfGOsku/OR/92l1MBe0Fw",
+		"vs/workbench/workbench.desktop.main.css": "bp00+/7ZZf9R4LWXIBLYNQ",
 		"vs/code/electron-browser/workbench/workbench.html": "QebknuoxWdjtUlOo+zwx9A",
-		"vs/code/electron-browser/workbench/workbench.js": "ptK+2JXbB/08RrgLk5T4kA"
+		"vs/code/electron-browser/workbench/workbench.js": "Zj6LiOdBZSWN+PPd6+w9ew"
 	},
-	"settingsSearchBuildId": 1380100547120,
+	"settingsSearchBuildId": 1390000562500,
 	"target": "user"
 }
