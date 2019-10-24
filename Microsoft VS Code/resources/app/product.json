@@ -779,6 +779,7 @@
 	"uiExtensions": [
 		"atlassian.atlascode",
 		"CoenraadS.bracket-pair-colorizer",
+		"CoenraadS.bracket-pair-colorizer-2",
 		"formulahendry.auto-close-tag",
 		"hiro-sun.vscode-emacs",
 		"hnw.vscode-auto-open-markdown-preview",
@@ -796,14 +797,14 @@
 		"https://vscode-auth.github.com",
 		"https://*.gallerycdn.vsassets.io"
 	],
-	"commit": "9df03c6d6ce97c6645c5846f6dfa2a6a7d276515",
-	"date": "2019-10-09T06:58:04.439Z",
+	"commit": "6ab598523be7a800d7f3eb4d92d7ab9a66069390",
+	"date": "2019-10-15T15:35:18.241Z",
 	"checksums": {
-		"vs/workbench/workbench.desktop.main.js": "ejfGOsku/OR/92l1MBe0Fw",
-		"vs/workbench/workbench.desktop.main.css": "bp00+/7ZZf9R4LWXIBLYNQ",
+		"vs/workbench/workbench.desktop.main.js": "Qve5eaTksHDoXFTzBWQMxQ",
+		"vs/workbench/workbench.desktop.main.css": "sFRottvRgAu6ZlH0FXo0Dg",
 		"vs/code/electron-browser/workbench/workbench.html": "QebknuoxWdjtUlOo+zwx9A",
-		"vs/code/electron-browser/workbench/workbench.js": "Zj6LiOdBZSWN+PPd6+w9ew"
+		"vs/code/electron-browser/workbench/workbench.js": "aYueRCrYPAB47i9ndbchFg"
 	},
-	"settingsSearchBuildId": 1390000562500,
+	"settingsSearchBuildId": 1390200562800,
 	"target": "user"
 }
