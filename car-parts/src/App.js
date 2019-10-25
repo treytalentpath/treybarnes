@@ -1,6 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import ListPahts from "./ListPahts.js"
+import Pahts from "./pahts.js"
 
 function App() {
   return (
@@ -8,7 +9,16 @@ function App() {
       <header className="App-header">
        
       </header>
+
+      <ListPahts>
+        <Pahts>Indicatahs</Pahts>
+        <Pahts>Cah Keys</Pahts>
+      </ListPahts>  
+
     </div>
+
+
+
   );
 }
 
